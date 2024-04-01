@@ -71,14 +71,14 @@ jobs:
     #     echo "Run, Build Application using script"
     #     ./location_of_script_within_repo/buildscript.sh
     
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v3
+    # - name: Perform CodeQL Analysis
+    #   uses: github/codeql-action/analyze@v3
       
-    - name: Upload Scanning results
-      uses: actions/upload-artifact@v2
-      with:
-        name: test-results
-        path: "D:\\a\\WebApplication1\\results\\"
+    # - name: Upload Scanning results
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: test-results
+    #     path: "D:\\a\\WebApplication1\\results\\"
     # - name: Upload SARIF results - CSharp
     #   uses: github/codeql-action/upload-sarif@v3
     #   with:
